@@ -1,0 +1,65 @@
+:root {
+  --primary: #0d6efd;
+  --dark: #0f172a;
+  --soft: #f8f9fa;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #1f2937;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, rgba(13, 110, 253, 0.9), rgba(13, 70, 173, 0.85));
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top right, rgba(255,255,255,0.25), transparent 30%);
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
+
+.btn {
+  border-radius: 999px;
+}
+
+.list-group-item {
+  border-left: 0;
+  border-right: 0;
+  background: transparent;
+}
+
+.card {
+  border-radius: 1.2rem;
+}
