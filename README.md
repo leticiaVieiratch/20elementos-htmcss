@@ -45,11 +45,4 @@ A página atual representa a primeira atividade de estudos sobre frameworks CSS,
 - CSS3
 - Bootstrap CDN
 
-## Observação
-
-Este projeto é de caráter educacional e foi desenvolvido para prática de aula e estudo pessoal.
-
-## Autor
-
-Letícia Vieira
 
